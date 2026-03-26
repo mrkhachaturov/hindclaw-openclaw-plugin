@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `jwtSecret` and `clientId` in plugin config and client options
 
 ### Changed
-- **Package renamed** from `hindclaw` to `hindclaw-openclaw` — reflects that hindclaw is now a multi-package ecosystem
+- **Package and plugin ID renamed** from `hindclaw` to `hindclaw-openclaw` — reflects that hindclaw is now a multi-package ecosystem
 - **Server-side access control** — permission resolution, tag injection, and strategy routing moved to `hindclaw-extension` (Python server extension). Plugin is now a thin JWT-authenticated adapter.
 - All hooks (recall, retain, session-start) thread `ctx` to client methods for per-request JWT auth
 - All hooks handle 403 gracefully — skip denied banks, log warning, continue
@@ -91,6 +91,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Rewritten from `@vectorize-io/hindsight-openclaw` (upstream reference, not a patch)
-- Plugin ID: `hindclaw` (later renamed to `hindclaw-openclaw`)
+- Plugin ID: `hindclaw-openclaw`
 - Client is stateless per-call
 - Retain uses native `items[]` batch format

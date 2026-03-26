@@ -1,6 +1,6 @@
 {
-  "id": "hindclaw",
-  "name": "HindClaw",
+  "id": "hindclaw-openclaw",
+  "name": "hindclaw-openclaw",
   "kind": "memory",
   "configSchema": {
     "type": "object",
