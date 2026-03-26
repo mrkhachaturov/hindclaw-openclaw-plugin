@@ -88,4 +88,5 @@ Bank config files (JSON5) override plugin defaults per agent. Loaded via `loadBa
 
 ## Publishing
 
-Push `v*` tag → GitHub Actions publishes to npm via token. Bump version in `package.json`, add changelog entry, commit, tag, push.
+Push `v*` tag from this repository to publish to npm. Bump `package.json`, update `CHANGELOG.md`,
+commit, tag, and push.
